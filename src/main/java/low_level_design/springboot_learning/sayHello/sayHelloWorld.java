@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class sayHelloWorld {
     @RequestMapping("/hello")
     public String sayHello() {
-        return "Hello World!"+coachName;
+        return "Hello World!  "+coachName;
     }
 
     @Value("${coach.name}")
